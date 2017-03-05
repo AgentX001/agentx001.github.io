@@ -33,7 +33,7 @@ function step() {
     context.fillStyle = "grey";
     context.fillRect(0, 0, 640, 480);
 
-    grid.draw(context, "white");
+    //grid.draw(context, "white");
 
     var hex = grid.findHex(mouse.position)
     if (hex && !stop) {
